@@ -1,6 +1,6 @@
 {
   "name": "angular-noty",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "homepage": "https://github.com/teamlittlelives/angular-noty",
   "authors": [
     "azadorozhniy <artem.zadorozhniy@gmail.com>"
@@ -24,7 +24,7 @@
     "tests"
   ],
   "dependencies": {
-    "noty": "~2.2.5",
+    "noty": "~2.3.4",
     "angular": "~1.2.22",
     "jquery": "~2.1.1"
   }
