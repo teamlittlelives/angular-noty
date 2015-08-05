@@ -1,6 +1,6 @@
 {
   "name": "angular-noty",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Angular wrapper for noty ",
   "main": "index.js",
   "scripts": {
