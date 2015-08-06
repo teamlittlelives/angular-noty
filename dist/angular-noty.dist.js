@@ -11,25 +11,26 @@
 				};
 
 				return {
-					show: function (message, type) {
-						callNoty({text: message || settings.text, type: type || settings.type});
+					show: function (message, type, buttons) {
+						callNoty({text: message || settings.text, type: type || settings.type, buttons: buttons});
 					},
 
-					showAlert: function (message) {
-						callNoty({text: message || settings.text, type: "alert"});
+					showAlert: function (message, buttons) {
+						callNoty({text: message || settings.text, type: "alert", buttons: buttons});
 					},
 
-					showSuccess: function (message) {
-						callNoty({text: message || settings.text, type: "success"});
+					showSuccess: function (message, buttons) {
+						callNoty({text: message || settings.text, type: "success", buttons: buttons});
 					},
 
-					showError: function (message) {
-						callNoty({text: message, type: "error"});
+					showError: function (message, buttons) {
+						callNoty({text: message, type: "error", buttons: buttons});
 					},
 
 					closeAll: function () {
 						return $.noty.closeAll()
 					},
+
 					clearShowQueue: function () {
 						return $.noty.clearQueue();
 					}.bind(this)
